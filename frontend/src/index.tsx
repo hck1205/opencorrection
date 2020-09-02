@@ -1,4 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-ReactDOM.render(<div>dev server</div>, document.getElementById('root'));
+import App from 'pages/App';
+
+ReactDOM.render(<App />, document.getElementById('root'));
