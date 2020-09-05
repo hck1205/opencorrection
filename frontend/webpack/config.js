@@ -47,6 +47,7 @@ module.exports = {
       API: path.resolve(__dirname, '..', 'src', 'API'),
       lib: path.resolve(__dirname, '..', 'src', 'lib'),
       constpack: path.resolve(__dirname, '..', 'src', 'constpack'),
+      modules: path.resolve(__dirname, '..', 'src', 'modules'),
       assets: path.resolve(__dirname, '..', 'src', 'assets'),
     },
   },

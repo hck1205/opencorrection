@@ -1,4 +1,4 @@
-import { Main, About } from 'pages';
+import { Main, About, Counter } from 'pages';
 
 const routes = [
   {
@@ -9,6 +9,11 @@ const routes = [
   {
     path: '/about',
     page: About,
+    exact: true,
+  },
+  {
+    path: '/counter',
+    page: Counter,
     exact: true,
   },
 ];
